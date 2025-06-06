@@ -1,5 +1,6 @@
 import Alert from "./components/Alert";
 import Button from "./components/Button";
+import ButtonClose from "./components/ButtonClose";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Button color="warning" onClick={() => console.log("Clicked")}>
         Press Me
       </Button>
+      <ButtonClose></ButtonClose>
     </div>
   );
 }
